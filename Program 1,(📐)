@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{/*""
+     """"
+     """"""
+     """""""""*/
+	int indexP, indexQ,i;
+	for(indexP=1;indexP<=5; indexP++)
+	{
+	    for(indexQ=1; indexQ<=indexP ;indexQ++)
+	    cout<<"*";
+	    cout<<endl;}
+	return 0;}
