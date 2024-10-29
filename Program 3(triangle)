@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int indexP, indexQ;
+	for(indexP=5;indexP>=1; indexP--){
+	/*    *
+	      **
+	      ***
+	      ****
+	      ***
+	      **
+	      *
+	              */
+	    for(indexQ=indexP; indexQ<=5 ;indexQ++)
+	    cout<<" "<<"*";
+	    cout<<endl;}
+	int indexK, indexM;
+	for(indexK=6;indexK>=1; indexK--)
+	{
+	    for(indexM=1; indexM<=indexK; indexM++)
+	    cout<<" "<<"*";
+	    cout<<endl;
+	}
+	return 0;
+}
